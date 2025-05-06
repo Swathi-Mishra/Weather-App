@@ -21,7 +21,7 @@ export default function WeatherApp() {
     
     return (
       <Container maxWidth="sm" className="app-container">
-        <Typography variant="h4" className="app-title">🌤️ Weather App by Delta</Typography>
+        <Typography variant="h4" className="app-title">🌤️ Weather App</Typography>
         <SearchBox updateInfo={updateInfo} />
         <InfoBox info={weatherInfo} />
       </Container>
